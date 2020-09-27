@@ -26,8 +26,8 @@ do
   )
 done
 
-echo "🍰  getting xcode dev tools..."
-xcode-select --install
+# echo "🍰  getting xcode dev tools..."
+# xcode-select --install
 
-echo "🍰  doing a ruby dance..."
-gem install jekyll
+# echo "🍰  doing a ruby dance..."
+# gem install jekyll

@@ -3,10 +3,8 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = YOUR_NAME
-	email = YOUR_EMAIL
-[url "https://github"]
-	insteadOf = git://github
+	name = leu
+	email = vaidaslamanauskas@gmail.com
 [color]
         diff = auto
         status = auto
@@ -14,8 +12,8 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = emacs
-	pager = diff-so-fancy | less --tabs=4 -RFX
+        editor = vim
+        pager = diff-so-fancy | less --tabs=4 -RFX
 [help]
         autocorrect = 1
 [push]
