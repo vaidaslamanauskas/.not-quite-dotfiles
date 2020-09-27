@@ -1,9 +1,0 @@
-{
-  "main": "run.js",
-  "author": "Monica Dinculescu <noms@google.com>",
-  "license": "MIT",
-  "dependencies": {
-    "node-env-file": "0.1.8",
-    "twit": "^2.2.9"
-  }
-}
