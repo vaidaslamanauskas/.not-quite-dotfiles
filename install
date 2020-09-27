@@ -12,7 +12,7 @@ git config --global credential.helper osxkeychain
 
 # find the installers and run them iteratively
 realpath() {
-    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+  [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
 }
 
 for src in $(find -H . -maxdepth 4 -name install.sh | sed 's|/[^/]*$||')
