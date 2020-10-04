@@ -10,6 +10,10 @@ echo "🍰  updating gitconfig..."
 cp ./git/.gitconfig ~/.gitconfig
 git config --global credential.helper osxkeychain
 
+# vim
+echo "🍰  updating vim..."
+cp ./vim/.vimrc ~/.vimrc
+
 # find the installers and run them iteratively
 realpath() {
   [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
