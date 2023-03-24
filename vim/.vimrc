@@ -6,4 +6,4 @@ set ai
 set number
 set hlsearch
 set ruler
-inoremap jj <Esc>
+highlight Comment ctermfg=green
